@@ -35,7 +35,7 @@ class SplashScreen extends StatelessWidget {
                 height: 40,
               ),
 
-              "Gets things done with T0Do".text.size(20).bold.make(),
+              "Gets things done with ToDo".text.size(20).bold.make(),
               const SizedBox(
                 height: 40,
               ),
@@ -68,18 +68,6 @@ class SplashScreen extends StatelessWidget {
             ),
           ),
         ]),
-      ),
-    );
-  }
-}
-
-class OnboardPage extends StatelessWidget {
-  const OnboardPage({super.key});
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Column(
-        children: [Center(child: Text("Onboard Page"))],
       ),
     );
   }
